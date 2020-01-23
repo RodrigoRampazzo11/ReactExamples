@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Exercicio3 extends React.Component {
+class Exercicio4 extends React.Component {
     minhaFuncao(valor) {
         alert(`Eu, ${valor}, fui clicado!`)
     }
@@ -14,4 +14,4 @@ class Exercicio3 extends React.Component {
     }
 }
 
-export default Exercicio3
+export default Exercicio4
