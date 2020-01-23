@@ -2,6 +2,7 @@ import React from 'react'
 
 import Exercicio1 from './Exercicio1'
 import Exercicio2 from './Exercicio2'
+import Exercicio3 from './Exercicio3'
 
 class Exercicios extends React.Component {
     render () {
@@ -17,6 +18,11 @@ class Exercicios extends React.Component {
             <h2>Exercício 2:</h2>
             <h3>Passando parâmetros</h3>
             <Exercicio2 nome="Fulano" idade={18} />
+
+            <br />
+            <h2>Exercício 3:</h2>
+            <h3>Chamando funções</h3>
+            <Exercicio3 />
         </>)
     }
 }
