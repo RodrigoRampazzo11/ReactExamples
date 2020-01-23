@@ -5,6 +5,7 @@ import Exercicio2 from './Exercicio2'
 import Exercicio3 from './Exercicio3'
 import Exercicio4 from './Exercicio4'
 import Exercicio5 from './Exercicio5'
+import Exercicio6 from './Exercicio6'
 
 class Exercicios extends React.Component {
 
@@ -14,7 +15,7 @@ class Exercicios extends React.Component {
 
     render () {
         return (<>
-            <h1>Exercícios</h1>
+            <center><h1>Exercícios</h1></center>
             <hr />
 
             <h2>Exercício 1:</h2>
@@ -40,6 +41,11 @@ class Exercicios extends React.Component {
             <h2>Exercício 5:</h2>
             <h3>Passando funções por parâmetro</h3>
             <Exercicio5 minhaFuncao={this.funcaoDesejada} />
+            <hr />
+
+            <h2>Exercício 6:</h2>
+            <h3>Trocar valor de uma variável comum</h3>
+            <Exercicio6 minhaFuncao={this.funcaoDesejada} />
             <hr />
         </>)
     }
