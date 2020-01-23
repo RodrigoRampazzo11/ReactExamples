@@ -6,6 +6,7 @@ import Exercicio3 from './Exercicio3'
 import Exercicio4 from './Exercicio4'
 import Exercicio5 from './Exercicio5'
 import Exercicio6 from './Exercicio6'
+import Exercicio7 from './Exercicio7'
 
 class Exercicios extends React.Component {
 
@@ -46,6 +47,11 @@ class Exercicios extends React.Component {
             <h2>Exercício 6:</h2>
             <h3>Trocar valor de uma variável comum</h3>
             <Exercicio6 minhaFuncao={this.funcaoDesejada} />
+            <hr />
+
+            <h2>Exercício 7:</h2>
+            <h3>Trocar valor de uma variável do tipo State</h3>
+            <Exercicio7 minhaFuncao={this.funcaoDesejada} />
             <hr />
         </>)
     }
